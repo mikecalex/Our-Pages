@@ -12,7 +12,12 @@ class App extends Component {
   render() {
 
     return(
-      <h1>Boo yaa</h1>
+      <div>
+        <a data-method="delete" rel="nofollow" href="/users/sign_out" ><button className='small-12 medium-6 large-2 large-offset-8 cell nav-bar-links'>Sign out</button></a>
+        <h1>Boo yaa</h1>
+      </div>
+
+
     )
   }
 }
