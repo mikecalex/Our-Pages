@@ -4,5 +4,11 @@ Rails.application.routes.draw do
 
   root to: 'static_pages#index'
 
+  namespace :api do
+    namespace :v1 do
+      resources :users
+    end
+  end
+
   get '*path', to: 'static_pages#index'
 end
