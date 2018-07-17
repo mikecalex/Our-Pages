@@ -10,3 +10,5 @@ This is an app for family and friends to post and comment on photos.
  - Users can upload new images on the index page
  - App uses Carrierwave and Fog to load images to the cloud
  
+ 
+ more to come...
